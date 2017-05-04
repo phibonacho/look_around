@@ -8,7 +8,7 @@ import max7219.led as led
 
 '''Initialize Device'''
 
-device = led.matrix(cascaded = 2, spi_device=0)
+device = led.matrix(cascaded = 1, spi_device=0)
 device.orientation(180)
 
 '''Constant'''
